@@ -1,0 +1,101 @@
+
+body {
+    padding-top: 68px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+
+    background-color: #000000;
+    font-family: "Ubuntu";
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.firstPic {
+  /* The image used */
+    width: 100%;
+    background-image: url("../images/drizzmain.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secondPic {
+  /* The image used */
+    width: 100%;
+    background-image: url("../images/drizz2.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.icon {
+    width: 35px;
+    border-radius: 180px;
+}
+
+.drizzLogoRow {
+
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.drizzLogo {
+
+ }
+.aboutMe {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 9999;
+
+
+}
+.aboutMe > p {
+  font-family: "Ubuntu";
+  font-size: 14px;
+  color: white;
+  width: 45%;
+}
+
+ .leftright {
+     font-size: 40px;
+ }
+
+.soundcloud {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.footer {
+
+}
