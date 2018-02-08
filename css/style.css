@@ -24,11 +24,11 @@ footer {
 }
 .firstPic {
   /* The image used */
-    width: 100%;
+
     background-image: url("../images/drizzmain.jpg");
 
     /* Set a specific height */
-    min-height: 500px;
+    min-height: 900px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -74,13 +74,12 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  z-index: 9999;
 
 
 }
 .aboutMe > p {
   font-family: "Ubuntu";
-  font-size: 14px;
+  font-size: 24px;
   color: white;
   width: 45%;
 }
@@ -96,6 +95,26 @@ footer {
   z-index: 1;
 }
 
+.email {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
 .footer {
 
+}
+
+@media (max-width: 800px) {
+  img {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .firstPic {
+    min-height: 500px;
+  }
+  .aboutMe > p {
+    font-size: 14px;
+  }
 }
